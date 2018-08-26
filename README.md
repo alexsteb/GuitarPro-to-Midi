@@ -19,6 +19,7 @@ Features:
     - Trembar - "
     - Volume knob effects
     - Muted notes
+    - Vibratos
     - and perhaps more..
  
  (I must mention that GuitarPro's native Midi export lacks far behind in this functionality!)
