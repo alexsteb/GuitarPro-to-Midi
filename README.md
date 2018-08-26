@@ -11,6 +11,7 @@ Features:
 - Reading GuitarPro 6 Files (using a simple bitwise compression and an xml structure with dictionary and ids)
 - Reading GuitarPro 7 Files (packed like a normal zip-file and using a very large xml structure)
 - Transferring all files into a common native format that saves all (and only) the information that are interesting for midi files. I.e. a lot of information like fingering or guitar amp preferences are ignored.
+- Splitting to a secondary channel for certain effects
 - Exporting to Midi, trying to simulate the sound as best as possible:
   Simulating:
     - Different types of harmonics
