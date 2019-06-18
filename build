@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mcs -out:Convert.exe main.cs open_gp_file.cs  GPBase.cs GP4File.cs GP3File.cs GP5File.cs MidiExport.cs NativeFormat.cs GP6File.cs -pkg:dotnet -r:UnityEngine.dll
