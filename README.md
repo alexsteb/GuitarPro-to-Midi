@@ -1,7 +1,6 @@
 # GuitarPro-to-Midi
 
-Simply import the unitypackage into your Unity program and run the only scene "call_gp_decoder".
-Click on the button to open any GuitarPro file.
+Build the program by running `./build` and then simply run `mono Convert.exe <gp-file-name>` (mono is a tool used for running C# code in the terminal).
 A file "output.mid" will be created in the home folder of your Unity project.
 
 (The cs-files in this repo are just for quick access and needn't be downloaded.)
@@ -22,7 +21,7 @@ Features:
     - Muted notes
     - Vibratos
     - and perhaps more..
- 
+
  (I must mention that GuitarPro's native Midi export lacks far behind in this functionality!)
-    
+
  Please enjoy and create some great software with this!
