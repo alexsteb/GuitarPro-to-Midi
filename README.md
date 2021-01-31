@@ -1,5 +1,10 @@
 # GuitarPro-to-Midi
 
+#Note:
+I'm not actively maintaining this and have no time to respond to any raised Issues or pull requests.
+I recommend the fork(s) created from this project, e.g. this one: https://github.com/rageagainsthepc/GuitarPro-to-Midi
+
+#Description:
 Simply import the unitypackage into your Unity program and run the only scene "call_gp_decoder".
 Click on the button to open any GuitarPro file.
 A file "output.mid" will be created in the home folder of your Unity project.
