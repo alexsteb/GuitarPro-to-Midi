@@ -389,10 +389,18 @@ namespace Native {
                             //Extra notes to replicate certain effects
 
 
-                            //Triplet Feel
+                            //]let Feel
                             if (!barMaster[measureIndex].tripletFeel.Equals("none"))
                             {
+                              
+                                
                                 TripletFeel trip = barMaster[measureIndex].tripletFeel;
+                                
+                                if (!Enum.IsDefined(typeof(TripletFeel), trip))
+                                {
+                                    // Skip this data and move on to the next iteration
+                                    continue;
+                                }
                                 //Check if at regular 8th or 16th beat position
                                 bool is_8th_pos = subIndex % 480 == 0;
                                 bool is_16th_pos = subIndex % 240 == 0;
